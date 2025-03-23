@@ -1,0 +1,25 @@
+/* src/components/MovieCast/MovieCast.module.css */
+.container {
+  margin-top: 20px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  text-align: center;
+}
+
+.photo {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #dc3545;
+}

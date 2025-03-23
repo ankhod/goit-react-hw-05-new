@@ -1,0 +1,18 @@
+/* src/components/MovieReviews/MovieReviews.module.css */
+.container {
+  margin-top: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 15px 0;
+}
+
+.error {
+  color: #dc3545;
+}
